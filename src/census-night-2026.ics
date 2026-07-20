@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hazara and Hazaragi//Census Awareness//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:20260811-census@hazaraandhazaragi.org
+DTSTAMP:20260714T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:2026 Australian Census Night
+DESCRIPTION:Complete the 2026 Australian Census and make Hazara identity and the Hazaragi language count.
+URL:https://info.census.abs.gov.au/
+END:VEVENT
+END:VCALENDAR

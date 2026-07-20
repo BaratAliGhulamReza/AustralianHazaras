@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "name": "Australian Hazaras",
+    "logo": "assets/images/logo-280.webp"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "index.html",
+      "page": "home"
+    },
+    {
+      "label": "Census Data",
+      "href": "census.html",
+      "page": "census"
+    }
+  ],
+  "home": {
+    "eyebrow": "",
+    "censusButton": "View Census Data",
+    "sectionHeading": "{city} community",
+    "sectionDescription": "News, opportunities, achievements and community stories from {city}."
+  },
+  "terminology": {
+    "people": "Hazara",
+    "language": "Hazaragi"
+  }
+}

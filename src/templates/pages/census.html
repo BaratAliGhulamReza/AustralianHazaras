@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hazara and Hazaragi Census data in Australia.">
+  <meta name="theme-color" content="#0c2f58">
+  <title>Census Data | Australian Hazaras</title>
+  <link rel="icon" href="assets/images/favicon.png"><link rel="preload" href="assets/images/logo-280.webp" as="image"><link rel="preload" href="assets/images/banners/sydney-1024.webp" as="image" imagesrcset="assets/images/banners/sydney-640.webp 640w, assets/images/banners/sydney-1024.webp 1024w, assets/images/banners/sydney-1600.webp 1600w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/bundles/census.min.css?v={{ASSET_VERSION}}">  {{STRUCTURED_DATA}}
+</head>
+<body data-page="census">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="site-header">{{HEADER}}</div>
+<main id="main-content">
+    <section class="census-photo-hero" aria-labelledby="census-title">
+      <img id="census-banner" class="census-photo-hero__image" src="assets/images/banners/sydney-1024.webp"
+        srcset="assets/images/banners/sydney-640.webp 640w, assets/images/banners/sydney-1024.webp 1024w, assets/images/banners/sydney-1600.webp 1600w"
+        sizes="100vw" width="1600" height="700" alt="Sydney Harbour at sunset" fetchpriority="high" decoding="async">
+      <div class="census-photo-hero__overlay"></div>
+
+      <div class="container census-photo-hero__content">
+        <p id="census-eyebrow" class="eyebrow eyebrow--light"></p>
+        <h1 id="census-title" class="census-photo-hero__title">Census Data</h1>
+        <p id="census-tagline" class="census-photo-hero__tagline"></p>
+        <p id="census-description" class="census-photo-hero__description">Official national figures for Hazara ancestry and the Hazaragi language in Australia.</p>
+        <a id="census-button" class="button button--gold" href="#numbers">11 August 2026 →</a>
+      </div>
+    </section>
+
+    
+
+    <section id="numbers" class="section census-numbers-section">
+      <div class="container">
+        <header class="section-heading">
+          <p id="numbers-eyebrow" class="eyebrow"></p>
+          <h2 id="numbers-heading">Official Census Numbers for Australian Hazaras</h2>
+          <p id="numbers-description"></p>
+        </header>
+        <div id="census-panels" class="census-panels"></div>
+      </div>
+    </section>
+
+    <section id="why" class="section section--muted">
+      <div class="container">
+        <header class="section-heading">
+          <p id="why-eyebrow" class="eyebrow"></p>
+          <h2 id="why-heading">A strong count builds a stronger future.</h2>
+          <p id="why-description">The Census helps show how communities are represented and how resources are planned.</p>
+        </header>
+        <div id="benefit-grid" class="benefit-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer">{{FOOTER}}</div>
+<script>window.__PAGE_DATA__={{PAGE_DATA}};</script><script type="module" src="assets/js/pages/census-page.js"></script>
+</body>
+</html>
