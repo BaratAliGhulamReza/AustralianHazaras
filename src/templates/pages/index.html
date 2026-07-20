@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hazara community information across Australia.">
+  <meta name="theme-color" content="#0c2f58">
+  <title>Australian Hazaras</title>
+  <link rel="icon" href="assets/images/favicon.png"><link rel="preload" href="assets/images/logo-280.webp" as="image"><link rel="preload" href="assets/images/banners/melbourne-1024.webp" as="image" imagesrcset="assets/images/banners/melbourne-640.webp 640w, assets/images/banners/melbourne-1024.webp 1024w, assets/images/banners/melbourne-1600.webp 1600w" imagesizes="100vw">
+  <link rel="stylesheet" href="assets/css/bundles/home.min.css?v={{ASSET_VERSION}}">  {{STRUCTURED_DATA}}
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="site-header">{{HEADER}}</div>
+<main id="main-content">
+    <section class="city-hero" aria-labelledby="city-title">
+      <img id="city-banner" class="city-hero__image" src="assets/images/banners/melbourne-1024.webp"
+        srcset="assets/images/banners/melbourne-640.webp 640w, assets/images/banners/melbourne-1024.webp 1024w, assets/images/banners/melbourne-1600.webp 1600w"
+        sizes="100vw" width="1600" height="700" alt="" fetchpriority="high" decoding="async">
+      <div class="city-hero__overlay"></div>
+      <div class="container city-hero__content">
+        <p id="home-eyebrow" class="eyebrow eyebrow--light"></p>
+        <h1 id="city-title" class="city-hero__title">Melbourne</h1>
+        <p id="city-description" class="city-hero__description">Community stories and information from Melbourne.</p>
+        <a id="home-census-link" class="button button--gold" href="census.html">View Census Data →</a>
+      </div>
+      <div class="container city-selector-shell">
+        <div id="city-selector" class="city-selector" role="tablist" aria-label="Choose a location"></div>
+      </div>
+    </section>
+
+    <section class="section city-community" aria-labelledby="city-sections-heading">
+      <div class="container">
+        <header class="section-heading">
+          <h2 id="city-sections-heading">Melbourne community</h2>
+          <p id="city-sections-description">News, opportunities, achievements and community stories from Melbourne.</p>
+        </header>
+        <div class="city-content-tabs">
+          <div id="city-tab-list" class="city-tab-list" role="tablist" aria-label="Community content categories"></div>
+          <div id="city-tab-panel" class="city-tab-panel" role="tabpanel"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer">{{FOOTER}}</div>
+<script>window.__PAGE_DATA__={{PAGE_DATA}};</script><script type="module" src="assets/js/pages/home-page.js"></script>
+</body>
+</html>

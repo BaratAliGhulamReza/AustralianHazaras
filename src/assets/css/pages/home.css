@@ -1,0 +1,9 @@
+.city-hero{position:relative;min-height:650px;overflow:visible;background:var(--navy-950)}
+.city-hero__image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .22s ease}
+.city-hero__overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,31,59,.88),rgba(7,31,59,.67) 36%,rgba(7,31,59,.18) 70%,rgba(7,31,59,.08)),linear-gradient(0deg,rgba(7,31,59,.25),rgba(7,31,59,.06))}
+.city-hero__content{position:relative;z-index:2;min-height:575px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;color:#fff}
+.city-hero__title{margin:14px 0 16px;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:clamp(4.25rem,9vw,7.25rem);font-weight:500;letter-spacing:-.045em;line-height:.9}
+.city-hero__description{max-width:500px;margin:0 0 26px;color:rgba(255,255,255,.92);font-size:1.35rem;line-height:1.45}
+.city-community{padding-top:32px;background:radial-gradient(circle at 10% 15%,rgba(255,205,0,.08),transparent 28%),linear-gradient(180deg,#fff,#f8fafc)}
+
+.city-community .section-heading h2{margin:0 0 10px}

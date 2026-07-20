@@ -1,0 +1,55 @@
+{
+  "defaultTab": "news",
+  "definitions": [
+    {
+      "key": "news",
+      "title": "News",
+      "icon": "newspaper",
+      "description": "Stay informed with news, announcements and important community developments.",
+      "purpose": "Stay informed with the latest news and stories from the Australian Hazara community."
+    },
+    {
+      "key": "education",
+      "title": "Education",
+      "icon": "education",
+      "description": "Celebrating academic achievement, learning and educational opportunity.",
+      "purpose": "Recognising people and organisations for achievements and contributions in education."
+    },
+    {
+      "key": "sport",
+      "title": "Sport",
+      "icon": "sport",
+      "description": "Celebrating sporting achievement and community participation through sport.",
+      "purpose": "Recognising athletes, teams and organisations for achievements and contributions in sport."
+    },
+    {
+      "key": "business",
+      "title": "Business",
+      "icon": "business",
+      "description": "Celebrating entrepreneurs, business growth and economic achievement.",
+      "purpose": "Recognising people and organisations for achievements, innovation and contributions in business."
+    },
+    {
+      "key": "arts-culture",
+      "title": "Arts and Culture",
+      "icon": "culture",
+      "description": "Celebrating creativity, heritage and cultural expression.",
+      "purpose": "Recognising artists, creators and organisations for achievements and contributions in arts and culture."
+    },
+    {
+      "key": "community-event",
+      "title": "Community Event",
+      "icon": "event",
+      "description": "Upcoming gatherings, workshops and celebrations for the community.",
+      "purpose": "Discover community events, gatherings, workshops and celebrations."
+    },
+    {
+      "key": "community-leadership",
+      "title": "Community Leadership",
+      "icon": "leadership",
+      "description": "Recognising leaders, volunteers and changemakers.",
+      "purpose": "Recognising people and organisations for leadership, volunteering and community service."
+    }
+  ],
+  "content": {}
+}
