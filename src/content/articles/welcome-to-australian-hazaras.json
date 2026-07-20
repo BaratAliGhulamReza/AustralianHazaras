@@ -18,10 +18,14 @@
   "publishedAt": "2026-07-20",
   "updatedAt": "2026-07-20",
   "author": "Australian Hazaras",
-  "status": "published",
+  "status": "archived",
   "featured": true,
   "image": {
     "src": "assets/images/banners/melbourne-1024.webp",
     "alt": "Melbourne city skyline"
-  }
+  },
+  "atGlance": [],
+  "relatedLinks": [],
+  "source": "Australian Hazara Community",
+  "contributor": "Australian Hazaras"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "beauty-of-hazaras-in-austrlia",
+  "slug": "beauty-of-hazaras-in-austrlia",
+  "title": "Beauty of Hazaras in Austrlia",
+  "summary": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\nasdfasdf",
+  "body": [],
+  "city": "melbourne",
+  "category": "news",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "author": "Australian Hazaras",
+  "status": "draft",
+  "featured": false,
+  "image": {
+    "src": "assets/images/articles/beauty-of-hazaras-in-austrlia-featured-1024.webp",
+    "alt": "Melbourne beauty"
+  },
+  "atGlance": [
+    {
+      "label": "Community",
+      "value": ""
+    },
+    {
+      "label": "Location",
+      "value": ""
+    },
+    {
+      "label": "Impact",
+      "value": ""
+    }
+  ],
+  "relatedLinks": [],
+  "source": "Australian Hazara Community",
+  "contributor": "Australian Hazaras"
+}
