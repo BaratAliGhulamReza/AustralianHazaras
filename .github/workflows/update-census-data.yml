@@ -22,7 +22,7 @@ jobs:
       - run: python tools/update_census_data.py
       - run: python tools/site.py release
       - name: Create pull request when official figures change
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: automation/census-data
           delete-branch: true
