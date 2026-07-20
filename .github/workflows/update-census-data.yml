@@ -1,0 +1,33 @@
+name: Check official Census data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * 1"
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: census-data-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: python tools/update_census_data.py
+      - run: python tools/site.py release
+      - name: Create pull request when official figures change
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/census-data
+          delete-branch: true
+          commit-message: Update official Census data
+          title: Update official Census data
+          body: Automated update from an approved official ABS source. Validation and tests passed.
+          add-paths: |
+            src/content/census.json
