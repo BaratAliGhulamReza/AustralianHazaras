@@ -25,7 +25,7 @@ jobs:
       - run: pip install -e ".[dev]"
       - run: python tools/site.py release
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
       - name: Deploy
