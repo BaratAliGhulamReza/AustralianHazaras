@@ -1,0 +1,24 @@
+{
+  "id": "hazaragi-beauty",
+  "slug": "hazaragi-beauty",
+  "title": "hazaragi beauty",
+  "summary": "Australian Hazara are among the most beautiful",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "\"Deformation has been fully quality checked.\",\n                \"All controls follow the rig correctly.\",\n                \"The correct model version is being used.\",\n                \"The rig has been checked for cycle issues.\",\n                \"The published version and file path have been verified.\",\n                \"All known issues have been documented in the Caveats section.\",\n                \"All controls are correctly positioned and selectable.\",\n                \"Control shapes are appropriately scaled for the asset.\",\n                \"Global scaling has been tested and is working correctly.\",\n                \"All controls and deformations have been mirrored correctly.\",\n                \"The rig has been tested 10,000 units away from the center of the grid.\",\n                \"Rig functions, visibility switches, and space switches are working correctly.\",\n                \"All rig files for this version are available across all studio locations.\","
+    }
+  ],
+  "city": "melbourne",
+  "category": "news",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-20",
+  "author": "Australian Hazaras",
+  "status": "published",
+  "featured": true,
+  "imageLayout": "portrait",
+  "image": {
+    "src": "assets/images/articles/hazaragi-beauty.webp",
+    "alt": ""
+  }
+}
