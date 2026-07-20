@@ -1,0 +1,53 @@
+{
+  "defaultCity": "melbourne",
+  "cities": {
+    "melbourne": {
+      "name": "Melbourne",
+      "banner": "assets/images/banners/melbourne-1024.webp",
+      "icon": "assets/images/city-icons/melbourne.png",
+      "intro": "Community stories and information from Melbourne."
+    },
+    "sydney": {
+      "name": "Sydney",
+      "banner": "assets/images/banners/sydney-1024.webp",
+      "icon": "assets/images/city-icons/sydney.png",
+      "intro": "Community stories and information from Sydney."
+    },
+    "adelaide": {
+      "name": "Adelaide",
+      "banner": "assets/images/banners/adelaide-1024.webp",
+      "icon": "assets/images/city-icons/adelaide.png",
+      "intro": "Community stories and information from Adelaide."
+    },
+    "brisbane": {
+      "name": "Brisbane",
+      "banner": "assets/images/banners/brisbane-1024.webp",
+      "icon": "assets/images/city-icons/brisbane.png",
+      "intro": "Community stories and information from Brisbane."
+    },
+    "perth": {
+      "name": "Perth",
+      "banner": "assets/images/banners/perth-1024.webp",
+      "icon": "assets/images/city-icons/perth.png",
+      "intro": "Community stories and information from Perth."
+    },
+    "darwin": {
+      "name": "Darwin",
+      "banner": "assets/images/banners/darwin-1024.webp",
+      "icon": "assets/images/city-icons/darwin.png",
+      "intro": "Community stories and information from Darwin."
+    },
+    "tasmania": {
+      "name": "Tasmania",
+      "banner": "assets/images/banners/tasmania-1024.webp",
+      "icon": "assets/images/city-icons/tasmania.png",
+      "intro": "Community stories and information from across Tasmania."
+    },
+    "canberra": {
+      "name": "Canberra",
+      "banner": "assets/images/banners/canberra-1024.webp",
+      "icon": "assets/images/city-icons/canberra.png",
+      "intro": "Community stories and information from Canberra."
+    }
+  }
+}

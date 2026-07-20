@@ -1,0 +1,129 @@
+@media(max-width:1050px){
+  .site-nav__links{
+    position:absolute;
+    top:calc(var(--header-height) + 8px);
+    left:20px;
+    right:20px;
+    display:none;
+    flex-direction:column;
+    align-items:stretch;
+    padding:20px;
+    border:1px solid var(--line);
+    border-radius:16px;
+    background:#fff;
+    box-shadow:var(--shadow)
+  }
+
+  .site-nav__links.is-open{display:flex}
+  .site-nav__toggle{display:block}
+  .city-selector{grid-template-columns:repeat(4,minmax(135px,1fr))}
+  .city-tab-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .city-content-tab:nth-child(3){border-right:0}
+  .city-content-tab:nth-child(-n+3){border-bottom:1px solid var(--line)}
+  .city-tab-panel__items{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .census-panels{grid-template-columns:1fr}
+  .benefit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .benefit-card:nth-child(2)::after{display:none}
+}
+
+@media(max-width:650px){
+  .container{width:min(calc(100% - 26px),var(--container))}
+
+  .city-hero,
+  .census-photo-hero{min-height:600px}
+
+  .city-hero__content{
+    min-height:520px;
+    justify-content:flex-end;
+    padding-bottom:125px
+  }
+
+  .census-photo-hero__content{
+    min-height:600px;
+    justify-content:flex-end;
+    padding-bottom:72px
+  }
+
+  .city-hero__title,
+  .census-photo-hero__title{font-size:4.1rem}
+
+  .city-hero__description,
+  .census-photo-hero__description{font-size:1.05rem}
+
+  .city-hero__overlay,
+  .census-photo-hero__overlay{
+    background:linear-gradient(
+      0deg,
+      rgba(7,31,59,.94),
+      rgba(7,31,59,.56) 62%,
+      rgba(7,31,59,.12)
+    )
+  }
+
+  .city-selector{
+    grid-template-columns:repeat(2,minmax(130px,1fr));
+    max-height:320px;
+    overflow:auto
+  }
+
+  .city-tab{min-height:106px}
+  .benefit-grid,
+  .number-grid{grid-template-columns:1fr}
+  .city-tab-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .city-content-tab{border-bottom:1px solid var(--line)}
+  .city-content-tab:nth-child(odd){border-right:1px solid var(--line)}
+  .city-content-tab:nth-child(even){border-right:0}
+  .city-content-tab:nth-last-child(-n+2){border-bottom:0}
+  .city-tab-panel{padding:26px 20px}
+  .city-tab-panel__header,
+  .city-tab-empty{grid-template-columns:1fr}
+  .city-tab-panel__items{grid-template-columns:1fr}
+
+  .city-community{padding-top:72px}
+
+  .benefit-card{
+    padding:24px 12px;
+    border-bottom:1px solid var(--line)
+  }
+
+  .benefit-card::after{display:none}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    transition-duration:.01ms!important;
+    animation-duration:.01ms!important
+  }
+}
+
+@media(max-width:760px){
+  #why .section-heading h2{
+    white-space:normal;
+  }
+}
+
+@media(max-width:520px){
+  .site-brand{
+    gap:8px;
+  }
+
+  .site-brand__name{
+    font-size:1rem;
+  }
+}
+
+@media(max-width:520px){
+  .site-footer__brand{
+    gap:8px;
+  }
+
+  .site-footer__name{
+    font-size:.95rem;
+  }
+
+  .site-footer__logo{
+    width:30px;
+    height:30px;
+  }
+}
